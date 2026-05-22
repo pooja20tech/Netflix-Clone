@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+
+
+
+.main {
+    background-image: url("assets/images/bg.jpeg");
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+
+
+
+}
+
+.main .box {
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+
+
+}
+
+.main nav {
+    size: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+    height: 62px;
+
+
+}
+
+nav img {
+    color: red;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+
+}
+
+nav button {
+    padding: 10px;
+    z-index: 10;
+    padding: 10px;
+}
+
+.main .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    height: calc(100% - 62px);
+    font-family: "Google Sans Flex", sans-serif;
+    padding: 0px 30px;
+    /* gap: 30px; */
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+   
+}
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+   
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.hero :nth-child(4) {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+     margin-top: 30px;
+
+}
+
+.separation {
+    height: 7px;
+    background: rgb(83, 80, 80);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(66, 64, 64, 0.708);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  
+}
+
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 4px;
+       margin-top: 15px;
+}
+
+.btn-red-sm {
+
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 900;
+    padding: 7px 101px 8px 14px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 2px solid rgba(246, 238, 038, 0.5);
+    margin-top: 15px;
+
+}
+section{
+    font-size: bolder;
+    color: white;
+
+}
+
+
+.container{
+display: flex;
+    gap: 10px;
+ padding: 2px 20px 10px 23px; 
+   
+    overflow-x: auto;
+   
+    width: 80%;    
+    margin: auto;
+   
+}
+
+.boxes{
+     width: 200px;
+     margin: 0px ;
+     /* margin: auto; */
+     margin: 2px 20px 2px 0px;
+     padding: 20px;
+     cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease-out;
+    
+
+}
+.boxes img{
+    width: 200px;
+    border-radius: 8px;
+    
+}
+.boxes:hover{
+    transform: scale(1.2);
+
+}
+
+.tranding-section h2{
+    color: white;
+    padding: 30px;
+     margin: auto;
+    width: 80vw;
+  
+
+    
+}
+
+.rank{
+    position: absolute;
+    left: -20px;
+    bottom: 10px;
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+    
+}
+.about h2{
+     color: white;
+    padding: 30px;
+     margin: auto;
+    width: 80vw;
+
+}
+.about .about-box{
+    width: 600px;
+     margin: 0px ;
+     /* margin: auto; */
+     margin: 2px 20px 2px 0px;
+     padding: 20px;
+     color: white;
+     border: 2px solid rgb(117, 117, 197);
+     border-radius: 8px;
+      position: relative;
+      height: 300px;
+
+}
+
+.container2{
+    display: flex;
+    color: white;
+    width: 80%;    
+    margin: auto;
+   
+
+}
+.container2 svg{
+    position: absolute;
+    bottom: 0px;
+    right:20px;
+}
+.container2 h3{
+    color: white;
+    font-size:27px;
+
+}
+.question{
+    color: white;
+}
+.question h2{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.question .qs{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    
+    border: 2px solid grey;
+    background-color: grey;
+}
+.end{
+    color: white;
+    width: 45%;
+    margin: auto;
+    padding: 30px;
+}
+.end .hero-buttons{
+    display: flex;
+    gap: 50px;
+}
+footer{
+    color: white;
+    
+    width: 80%;
+    margin: auto;
+}
+footer .footer-links{
+    color: white;
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    gap: 150px;
+
+}
+a:link{
+    color: white;
+}
+
+footer .footer-links ul li{
+    list-style-type: none;
+}
+#end{
+    padding: 30px;
+}
+
